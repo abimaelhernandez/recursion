@@ -7,4 +7,9 @@
 var getElementsByClassName = function(className
 ) {
   // your code here
+  if(className === undefined){
+    return flase;
+  }
+
+
 };
